@@ -1,7 +1,10 @@
 import './bootstrap';
+import '../css/app.css'; 
 import ReactDOM from 'react-dom/client';
+import React from 'react';
+import NavBar from '../components/NavBar';
 
 
 ReactDOM.createRoot(document.getElementById('app')).render(
-	<h1>hello</h1>
+	<NavBar/>
 );
